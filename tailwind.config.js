@@ -6,7 +6,10 @@ export default {
     "./src/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-  },
-  plugins: [],
+    colors: {
+      'bgColor': "#3F8CF2",
+      'boardColor': "#DADFE9",
+      'cardColor': "white",
+    },
+  }, 
 };
